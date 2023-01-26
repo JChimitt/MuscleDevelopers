@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.TabbedPage1"
+            BackgroundColor="#F5756B"
+            BarBackgroundColor="#353D60">
+  <!--Pages can be added as references or inline-->
+  
+</TabbedPage>

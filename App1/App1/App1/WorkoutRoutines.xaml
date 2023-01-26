@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.WorkoutRoutines"
+             Title="Workout Routines">
+    
+    <ContentPage.Content>
+
+        
+            <StackLayout Padding="30">
+            <Label Text="Choose your routine!" FontAttributes="Bold" FontSize="24" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="#353D60"></Label>
+            <StackLayout Orientation="Vertical" VerticalOptions="Fill" HorizontalOptions="Start" HeightRequest="254">
+                <ListView x:Name="routineList" BackgroundColor="#353D60" SeparatorColor="White" HasUnevenRows="True" VerticalOptions="FillAndExpand" RowHeight="50" HeightRequest="200">
+                
+                </ListView>
+                <Label x:Name="testLabel"></Label>
+                
+            </StackLayout>
+                
+            <Button x:Name="WorkoutButton"
+                Text="Workout!" TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                    ></Button>
+
+            <Button x:Name="EditButton"
+                Text="Edit" TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                    ></Button>
+
+            <Button x:Name="AddButton"
+                Text="Add" TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                    ></Button>
+
+            <Button x:Name="DeleteButton"
+                Text="Delete" TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                    ></Button>
+            
+
+        </StackLayout>
+
+            
+
+
+            
+
+        
+        
+        
+    </ContentPage.Content>
+</ContentPage>

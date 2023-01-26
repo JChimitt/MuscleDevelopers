@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.ExerciseDescription"
+             BackgroundColor="#F5756B"
+             Title="Exercise Description"
+                >
+    <ContentPage.Content>
+        <StackLayout Padding="20"  Spacing="20">
+            <Image x:Name="exerciseGif" IsAnimationPlaying="True" HeightRequest="250"></Image>
+            <Label x:Name="exerciseNameLabel"  Text="Exercise Name: " FontSize="20" FontAttributes="Bold" TextColor="#353D60"/>
+            <Label x:Name="primaryMuscleLabel"  Text="Primary Muscle: " FontSize="20" FontAttributes="Bold" TextColor="#353D60"/>
+            <Label x:Name="secondaryMuscleLabel"  Text="Secondary Muscle: " FontSize="20" FontAttributes="Bold" TextColor="#353D60"/>
+            <Label x:Name="descriptionLabel"  Text="Description: " FontSize="20" FontAttributes="Bold" TextColor="#353D60"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

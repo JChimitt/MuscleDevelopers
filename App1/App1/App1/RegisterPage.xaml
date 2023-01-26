@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.RegisterPage"
+             Title="Registration"
+             BackgroundColor="#F5756B">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+                <Image Source="MuscleDevelopers.png" WidthRequest="180" HeightRequest="180"></Image>
+
+                <Entry x:Name="textUsername" Placeholder="Username" PlaceholderColor="#353D60"></Entry>
+                <Entry x:Name="textPassword" Placeholder="Password" IsPassword="True" PlaceholderColor="#353D60"></Entry>
+                <Button x:Name="registerButton"
+                    VerticalOptions="Center"
+                    Text="Register Now!"
+                    TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                
+                    ></Button>
+
+               
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

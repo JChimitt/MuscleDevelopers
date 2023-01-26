@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.WorkoutPage"
+             BackgroundColor="#F5756B"
+             Title="Time to Workout!">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="40">
+                <Label x:Name="TestLabel"></Label>
+                <ListView x:Name="exerciseList" BackgroundColor="#353D60" SeparatorColor="White" HasUnevenRows="True" VerticalOptions="FillAndExpand" RowHeight="50" HeightRequest="200">
+                    
+                </ListView>
+                <Label x:Name="stopwatchLabel"
+                       FontSize="26"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand">
+                    
+                </Label>
+                <Button x:Name="startButton"
+                Text="Start" TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                        Clicked="startButton_Clicked"
+                    ></Button>
+
+                <Button x:Name="stopButton"
+                Text="Stop" TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                        Clicked="stopButton_Clicked"
+                    ></Button>
+
+                <Button x:Name="resetButton"
+                Text="Rest" TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                    Clicked="resetButton_Clicked"
+                        ></Button>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

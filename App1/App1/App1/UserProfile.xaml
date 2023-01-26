@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.UserProfile"
+             Title="Profile">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="40">
+            <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*">
+                
+                
+                
+            
+                <Label Text="Username:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="usernameLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="First Name:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="firstNameLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="Last Name:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="lastNameLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="Email:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="emailLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="Sex:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="sexLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="Age:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="ageLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="Height:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="heightLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="Weight:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="weightLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="Goal Weight:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="goalWeightLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="Experience:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="experienceLabel" Text="" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="2" Margin="30,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+                <Label Text="Notes:" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End" Grid.Column="0" Grid.Row="10" Grid.ColumnSpan="2" Margin="0,0,80,0"
+                       FontAttributes="Bold" TextColor="#353D60"/>
+                <Entry x:Name="noteLabel" Text="Jacob likes to weighlift" FontSize="20"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="StartAndExpand" Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="3" Grid.RowSpan="3" Margin="0,0,0,0" IsReadOnly="true"
+                       TextColor="#353D60"/>
+            </Grid>
+            <Button x:Name="EditButton"
+                Text="Edit your profile" TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                    Clicked="EditButton_Clicked"></Button>
+                <Button x:Name="SaveButton"
+                Text="Save your profile" TextColor ="White"
+                    BackgroundColor="#353D60"
+                    BorderColor="White"
+                    BorderWidth="1.75"
+                    CornerRadius="50"
+                    Clicked="SaveButton_Clicked"></Button>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

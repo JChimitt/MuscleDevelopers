@@ -1,0 +1,3 @@
+E:\Fall 2021\ITS 440\FinalProject\App1\App1\App1.Android\obj\Debug\60\MonoAndroid,Version=v6.0.AssemblyAttributes.cs
+E:\Fall 2021\ITS 440\FinalProject\App1\App1\App1.Android\obj\Debug\60\build.props
+E:\Fall 2021\ITS 440\FinalProject\App1\App1\App1.Android\obj\Debug\60\adb.props
